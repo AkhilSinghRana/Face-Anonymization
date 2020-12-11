@@ -1,0 +1,17 @@
+# Ignore tracking of data
+data/*
+*.csv
+#ignore python virtual environment dependencies
+env/*
+
+#Ignore cached project files
+.vscode*
+**__pycache__**
+**.egg-info
+**.ipynb_checkpoints/
+
+#Not needed for current Setup
+Tools/FaceRecognition/
+Tools/Fawkes/
+Tools/FirstOrderModel/
+.DS_Store
